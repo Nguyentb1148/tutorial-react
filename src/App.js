@@ -1,13 +1,11 @@
-import './App.css';
-import Counter from "./Hook/Counter";
-import Timer from "./Hook/Timer";
-import ExampleEffectTrigged from "./Hook/ExampleEffectTrigged";
+import SearchAppMemo from "./Hook/useMomo/SeachAppMemo";
+
 function App() {
   return (
-    <div className='App'>
-        {/*<Timer/>*/}
-      <ExampleEffectTrigged/>
-    </div>
+     <div>
+         <SearchAppMemo/>
+     </div>
+
   );
 }
 
