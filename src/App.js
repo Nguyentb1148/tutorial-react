@@ -1,11 +1,10 @@
-import SearchAppMemo from "./Hook/useMomo/SeachAppMemo";
+import DataFetchingComponent from "./Basic/Hook/CustomHook/useFetch/DataFetchingComponent";
 
 function App() {
   return (
      <div>
-         <SearchAppMemo/>
+         <DataFetchingComponent/>
      </div>
-
   );
 }
 

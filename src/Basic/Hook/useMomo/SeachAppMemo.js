@@ -33,6 +33,7 @@
 //
 // export default SearchAppMemo;
 
+//use useMemo
 import {useMemo, useState} from "react";
 
 function ItemList({items,query}){
